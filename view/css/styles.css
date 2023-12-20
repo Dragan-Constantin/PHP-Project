@@ -1,0 +1,179 @@
+html {
+  height:100%;
+  font-family: 'Noto Color Emoji', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background: url('images/portfolio-home.png');
+  background-position: center center ;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: #333; */
+  background-color: rgba(17, 24, 39, .75);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  /* background-color: #d97706; */
+  background-color: #eab308;
+  color: black;
+}
+
+/* // Add an active class to highlight the current page
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: right;
+    display: block;
+    text-align: left;
+  }
+}
+
+.homepage {
+  text-align: justify;
+  object-fit: fill;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+button {
+  padding: 0.6em 1em;
+  border: 4px solid #eab308;
+  transition: ease-in-out 0.3s;
+  background-color: transparent;
+  color: #eab308;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+button:hover {
+  /* transform: scale(1.2) rotate(10deg); */
+  transform: scale(1.2);
+  background-color: #eab308;
+  color: white;
+}
+
+button a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+.columns-demos {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.stat {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Pricing header */
+.stat .header {
+  font-size: 30px;
+}
+
+/* List items */
+.stat li {
+  padding: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    max-width: 50%;
+  }
+  .column-demos {
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    max-width: 100%;
+  }
+  .column-demos {
+    max-width: 100%;
+  }
+}
+
+.about-section {
+  padding: 50px;
+  /* text-align: justify; */
+  text-align: center;
+  /* background-color: rgba(17, 24, 39, .75); */
+  color: white;
+}
+
+.about-section p {
+  text-align: justify;
+}
+
+
