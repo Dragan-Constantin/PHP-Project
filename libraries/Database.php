@@ -1,17 +1,23 @@
 <?php
 
 class Database {
-    private $host = "51.158.59.186";
-    private $username = "phppex";
-    private $password = "Supermotdepasse!42";
-    private $database = "'CD'";
+    private $host;
+    private $port;
+    private $username;
+    private $password;
+    private $database;
 
     private $conn;
     private $stmt;
     private $error;
     
     public function __construct() {
-        $dsn = "mysql:host=$this->host;port=14301;dbname=$this->database";
+        $this->host = $_ENV["HOSTNAME"];
+        $this->port = $_ENV["PORT"];
+        $this->username = $_ENV["USERNAME"];
+        $this->password = $_ENV["PASSWORD"];
+        $this->database = $_ENV["DBNAME"];
+        $dsn = "mysql:host=$this->host;port=$this->port;dbname=$this->database";
         $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_PERSISTENT => true);
         try {
             $this->conn = new PDO($dsn, $this->username, $this->password, $options);

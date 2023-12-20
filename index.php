@@ -1,7 +1,10 @@
 <?php
-// session_start();
-// error_reporting(E_ERROR | E_PARSE);
+use Dotenv\Dotenv;
+
+require __DIR__.'/vendor/autoload.php';
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 require_once('./router.php');
-// var_dump($_SERVER);
 $address = $_SERVER['REQUEST_URI'];
 route_request($address);
