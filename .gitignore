@@ -2,4 +2,4 @@
 /archive
 
 *.sql
-# .env
+.env
