@@ -12,14 +12,11 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-  /* background-color: #333; */
   background-color: rgba(17, 24, 39, .75);
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: right;
   display: block;
@@ -30,25 +27,15 @@ body {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  /* background-color: #d97706; */
   background-color: #eab308;
   color: black;
 }
 
-/* // Add an active class to highlight the current page
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-} */
-
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -57,7 +44,6 @@ body {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -115,7 +101,6 @@ button a {
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
 .columns {
   float: left;
   width: 25%;
@@ -123,11 +108,10 @@ button a {
 }
 .columns-demos {
   float: left;
-  width: 33.3%;
+  width: 25%;
   padding: 8px;
 }
 
-/* Style the list */
 .stat {
   list-style-type: none;
   margin: 0;
@@ -135,12 +119,10 @@ button a {
   color: white;
 }
 
-/* Pricing header */
 .stat .header {
   font-size: 30px;
 }
 
-/* List items */
 .stat li {
   padding: 5px;
   text-align: center;
@@ -151,7 +133,7 @@ button a {
     max-width: 50%;
   }
   .column-demos {
-    max-width: 50%;
+    width: 50%;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -160,7 +142,7 @@ button a {
     max-width: 100%;
   }
   .column-demos {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
