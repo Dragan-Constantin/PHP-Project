@@ -21,6 +21,9 @@ function route_request($address){
             $page = new DemosController;
             $page->getDemosPage();
             break;
+        case "/contact":
+            include_once("view/contact.php");
+            break;
         default:
             include_once("view/404.php");
             break;
