@@ -9,8 +9,7 @@ class AboutModel {
     }
 
     public function getCountScores() {
-        // $this->db->prepareQuery("SELECT `title`, `link` FROM musics");
-        $this->db->prepareQuery("SELECT COUNT(`link`) as `cnt` FROM musics");
+        $this->db->prepareQuery("SELECT COUNT(`link`) as `count` FROM musics");
         $res = $this->db->resultSingle();
         return $res;
     }

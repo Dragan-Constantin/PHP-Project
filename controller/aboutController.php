@@ -10,8 +10,7 @@ class AboutController {
     }
 
     public function getAboutPage() {
-        $cnt_scores = $this->model->getCountScores()['cnt'];
-        // var_dump($cnt_scores);
+        $score_count = $this->model->getCountScores()['count'];
         include_once('view/about.php');
     }
 }

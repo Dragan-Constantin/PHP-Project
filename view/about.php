@@ -32,7 +32,7 @@
 </div>
 <div class="columns">
     <ul class="stat">
-        <li class="header"><?php echo $cnt_scores;?></li>
+        <li class="header"><?php echo $score_count;?></li>
         <li class="info">independent scores</li>
     </ul>
 </div>
