@@ -31,5 +31,5 @@ function route_request($address){
     
     $year = date("Y");
     $name = "Dragan Constantin";
-    include_once("view/footer.php");
+    // include_once("view/footer.php");
 }
