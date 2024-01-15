@@ -1,5 +1,5 @@
 /.vscode
 /archive
 
-*.sql
+.sql
 .env

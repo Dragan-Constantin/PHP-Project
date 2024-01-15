@@ -35,5 +35,5 @@ function route_request($address){
     // TODO : Fix footer at the bottom of each page instead of bottom of screen
     $year = date("Y");
     $name = "Dragan Constantin";
-    // include_once("view/footer.php");
+    include_once("view/footer.php");
 }
