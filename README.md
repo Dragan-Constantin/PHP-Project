@@ -1,6 +1,5 @@
 <a href="https://github.com/Dragan-Constantin/PHP-Project/" target="_blank"><p align="center"> <img alt="Portfolio Icon" title="Portfolio Icon" src="images/README/logo-readme.jpeg" width="225" style="border-radius:50%;"></p></a>
-<p align="center"><b>PHP-Project</b></p>
-<p align="center"><b>Portfolio</b></p><br>
+<p align="center"><b>PHP-Project : Portfolio</b></p><br>
 <p align="center">
   <img align="center" alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/Dragan-Constantin/Transverse-S2-Project?color=brightgreen&label=Size&style=for-the-badge">
 </p>
@@ -26,7 +25,6 @@ To install the dependancies, you can run the following command in your prefered 
 ```bash
 composer install
 ```
-<br>
 <br>
 
 ## Usage
@@ -61,5 +59,4 @@ USERNAME = "root"
 PASSWORD = "noot"
 DBNAME = "portfolio"
 ```
-
 <br>
