@@ -25,17 +25,16 @@ To install the dependancies, you can run the following command in your prefered 
 ```bash
 composer install
 ```
-<br>
 
 ## Usage
 
-### Database
+* ### Database
 
 This project needs a mysql database to work.
 To create and fill the database, you can use the db.sql file available at the root of the project.
 <br>
 
-### .env
+* ### .env
 
 For this project to work, you will need to create a file named `.env` and place it at the root of the project.
 Then, copy the content of `.env.example` and paste it in the file you just created.
@@ -59,4 +58,5 @@ USERNAME = "root"
 PASSWORD = "noot"
 DBNAME = "portfolio"
 ```
+
 <br>
