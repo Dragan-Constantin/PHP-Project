@@ -13,10 +13,14 @@ It will not be maintained.
 
 ## Installation
 
-You can clone this project by using the following command in your terminal. Make sure you have git installed (you can download it [here](https://git-scm.com/downloads))
-<br>
+You can clone this project by using the following command in your terminal. Make sure you have git installed (you can download it [here](https://git-scm.com/downloads)).
 
-### Dependancies
+```bash
+git clone https://github.com/Dragan-Constantin/PHP-Project
+```
+
+
+## Dependancies
 
 This project uses .env support.
 To do so, it needs : [phpdotenv](https://github.com/vlucas/phpdotenv) version 5.6 or later from vlucas
