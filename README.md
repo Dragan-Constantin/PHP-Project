@@ -1,4 +1,4 @@
-<a href="https://github.com/Dragan-Constantin/PHP-Project/" target="_blank"><p align="center"> <img alt="Portfolio Icon" title="Portfolio Icon" src="images/README/logo-readme.jpeg" width="225" style="border-radius:50%;"></p></a>
+<a href="https://github.com/Dragan-Constantin/PHP-Project/" target="_blank"><p align="center"> <img alt="Portfolio Icon" title="Portfolio Icon" src="images/README/logo-readme-nobg.png" width="225" style="border-radius:50%;"></p></a>
 <p align="center"><b>PHP-Project : Portfolio</b></p><br>
 <p align="center">
   <img align="center" alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/Dragan-Constantin/Transverse-S2-Project?color=brightgreen&label=Size&style=for-the-badge">
