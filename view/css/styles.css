@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: url('images/portfolio-home.png');
+  background: url('./assets/images/portfolio-home.png');
   background-position: center center ;
   background-attachment: fixed;
   background-size: cover;
@@ -225,7 +225,7 @@ input[type=submit]:hover {
 }
 
 .contact-image {
-  content: url("images/clarinet.png");
+  content: url("./assets/images/clarinet.png");
 }
 
 @media screen and (max-width: 800px) {

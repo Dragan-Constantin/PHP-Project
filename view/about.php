@@ -4,7 +4,7 @@
     <p>Imagination and creation being key concepts at his core, he has been bringing things ideas to life with sounds for over 17 years, and with code and pixels for 3 years.</p>
     <p>Constantin loves to explore new technologies, genres, and styles, and to challenge himself with new projects and ideas. Passionate about what he does, he always strives to deliver high-quality work that meets the expectations of his clients and users.</p>
     <button>
-        <a href="/assets/resume.pdf" download>
+        <a href="./assets/resume.pdf" download>
             DOWNLOAD MY RESUME
         </a>
     </button>
